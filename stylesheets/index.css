@@ -8,7 +8,6 @@ html {
 html, body {
     height: 100%;
     width: 100%;
-    /* background: blue; */
 }
 
 .picture-frame {
@@ -41,4 +40,20 @@ html, body {
     /* how to line up on cross axis */
     align-items: center;
 
+}
+
+/* It's like an if statement for CSS */
+@media screen and (min-width: 500px) {
+
+    body {
+        background: red;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+
+    body {
+        background: purple;
+    }
 }
