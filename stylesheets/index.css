@@ -49,11 +49,48 @@ html, body {
         background: red;
     }
 
+    .logo-text {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .picture-frame {
+        width: 33%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .hamster-playground {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 700px) {
 
     body {
         background: purple;
+    }
+
+    .hamster-playground {
+        background: bisque;
+    }
+
+    .logo-text {
+        font-size: 32px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background: greenyellow;
+    }
+    .picture-frame {
+        width: 25%;
+    }
+    .hamster-playground {
+        background: red;
     }
 }
