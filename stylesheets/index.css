@@ -8,39 +8,37 @@ html {
 html, body {
     height: 100%;
     width: 100%;
+    /* background: blue; */
 }
 
 .picture-frame {
-    width: 150px;
-    /* display: inline-block */
+    width: 80%;
 
-    position: absolute;
-    top: 150px;
+    /* position: absolute;
+    top: 150px; */
+    border: 2px solid cornflowerblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .picture-frame img {
     width: 100%;
 }
 
-#one {
-    left: 50px;
-    z-index: 10;
-}
 
-#two {
-    top: 160px;
-    left: 65px;
-    z-index: 11;
-}
+* .hamster-playground {
+    border: 5px solid gold;
+    display: flex;
+    min-height: 300px;
 
-#three {
-    top: 170px;
-    left: 80px;
-}
+    flex-direction: column;
 
-.hamster-playground {
-    position: relative;
-    /* top: 400px; */
-    /* left: 200px; */
-    /* background: cornflowerblue; */
+    /* how to line up on main axis */
+    justify-content: flex-start;
+
+    /* how to line up on cross axis */
+    align-items: center;
+
 }
