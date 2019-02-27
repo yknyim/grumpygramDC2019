@@ -12,9 +12,28 @@ html, body {
 
 .picture-frame {
     width: 150px;
-    display: inline-block
+    /* display: inline-block */
+
+    position: absolute;
+    top: 150px;
 }
 
 .picture-frame img {
     width: 100%;
+}
+
+#one {
+    left: 50px;
+    z-index: 10;
+}
+
+#two {
+    top: 160px;
+    left: 65px;
+    z-index: 11;
+}
+
+#three {
+    top: 170px;
+    left: 80px;
 }
