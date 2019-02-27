@@ -37,3 +37,10 @@ html, body {
     top: 170px;
     left: 80px;
 }
+
+.hamster-playground {
+    position: relative;
+    /* top: 400px; */
+    /* left: 200px; */
+    /* background: cornflowerblue; */
+}
