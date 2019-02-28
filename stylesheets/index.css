@@ -41,6 +41,9 @@ html, body {
     opacity: 0.9;
 }
 
+.picture-frame.big img {
+    transform: scale(2.5);
+}
 
 * .hamster-playground {
     border: 5px solid gold;
