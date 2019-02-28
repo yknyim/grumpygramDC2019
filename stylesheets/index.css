@@ -46,7 +46,7 @@ html, body {
 
 /* Use the :hover pseudo-class */
 .picture-frame:hover {
-    outline: 5px solid black;
+    outline: 5px solid white;
 }
 
 /* 
@@ -76,7 +76,7 @@ html, body {
     /* transform: scale(2.5); */
     opacity: 1.0;
     border-radius: 50%;
-    animation: roller-coaster .5s ease-in-out infinite;
+    animation: roller-coaster .5s ease-in-out;
 } 
 
 .hamster-playground {
