@@ -12,10 +12,10 @@ function respondToClick(event) {
     console.log('how are you?');
     console.log('i am fine because i am a hamster.');
 
-    console.log(event.target.parentElement);
+    console.log(event.target);
     // add the "big" class tot he thing that got clicked
 
-    event.target.parentElement.classList.add('big');
+    event.target.classList.toggle('big');
 }
 
 function attachClickHandler(oneElement) {

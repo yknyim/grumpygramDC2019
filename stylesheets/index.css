@@ -39,9 +39,10 @@ html, body {
 .picture-frame img {
     width: 100%;
     opacity: 0.9;
+    transition: transform 500ms;
 }
 
-.picture-frame.big img {
+.picture-frame img.big {
     transform: scale(2.5);
 }
 
