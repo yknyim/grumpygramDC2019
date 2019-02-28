@@ -10,6 +10,28 @@ html, body {
     width: 100%;
 }
 
+@keyframes roller-coaster {
+    0% {
+        /* opacity: 0; */
+        transform: rotate(0deg);
+    }
+
+    /* 50% { */
+        /* opacity: 1.0; */
+        /* transform: rotate(180deg); */
+    /* } */
+
+    100% {
+        /* opacity: 0; */
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
 .picture-frame {
     width: 80%;
 
@@ -51,11 +73,13 @@ html, body {
 
 /* state b */
 .picture-frame img.big {
-    transform: scale(2.5);
+    /* transform: scale(2.5); */
     opacity: 1.0;
-}
+    border-radius: 50%;
+    animation: roller-coaster .5s ease-in-out infinite;
+} 
 
-* .hamster-playground {
+.hamster-playground {
     border: 5px solid gold;
     display: flex;
     min-height: 300px;
@@ -116,7 +140,8 @@ html, body {
         background: greenyellow;
     }
     .picture-frame {
-        width: 25%;
+        width: 30%;
+        border-radius: 75%;
     }
     .hamster-playground {
         background: red;
